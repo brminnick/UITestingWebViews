@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebView.UITest", "WebView.UITest\WebView.UITest.csproj", "{B2400788-0CB9-40EA-B038-42DB9FACAB62}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WebView.Shared", "WebView.Shared\WebView.Shared.shproj", "{05FFE79A-1F8E-4E51-9F40-73F117AA7D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebView.iOS", "WebView.iOS\WebView.iOS.csproj", "{E6D53C75-C5D0-4D73-A9B1-64908773C247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Release|iPhone.Build.0 = Release|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B2400788-0CB9-40EA-B038-42DB9FACAB62}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Release|iPhone.Build.0 = Release|iPhone
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E6D53C75-C5D0-4D73-A9B1-64908773C247}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
